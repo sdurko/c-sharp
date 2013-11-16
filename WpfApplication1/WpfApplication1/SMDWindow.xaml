@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfApplication1.SMDWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SMDWindow" Height="300" Width="300">
+    <StackPanel Margin="10">
+        <TextBox Name="smdTextBox"/>
+        <TextBlock Text="{Binding ElementName=smdTextBox,Path=Text}"/>
+    </StackPanel>
+</Window>

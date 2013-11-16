@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApplication1.CustomCollectionBinding"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CustomCollectionBinding" Height="300" Width="300">  
+    
+    <DockPanel>
+        <ListBox DockPanel.Dock="Left" Name="lbFirstName" DisplayMemberPath="FirstName"/>
+        <ListBox DockPanel.Dock="Left" Grid.Column="1" Name="lbLastName" DisplayMemberPath="LastName"/>
+        <UniformGrid DockPanel.Dock="Right" Columns="1">
+            <Button DockPanel.Dock="Top" Name="Add" Click="Add_Click_1" Content="Add"/>
+            <Button DockPanel.Dock="Top" Name="Delete" Click="Delete_Click_1" Content="Delete"/>
+            <Button DockPanel.Dock="Top" Name="Edit" Click="Edit_Click_1" Content="Edit">
+                <Button.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem Header="SMD" Click="MenuItem_Click_1"/>
+                        
+                    </ContextMenu>
+                </Button.ContextMenu>
+            </Button>
+                
+                
+        </UniformGrid>
+    </DockPanel>
+</Window>
