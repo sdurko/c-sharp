@@ -1,0 +1,36 @@
+﻿<Window x:Class="Styles.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Foreground" Value="Blue"/>
+        </Style>
+        
+        <Style TargetType="TextBlock">  <!--This is the default style for textblocks in this window.--> 
+            <Setter Property="Foreground" Value="Red"/>
+        </Style>
+        
+        <Style x:Key="ChildStyle" BasedOn="{StaticResource TextBlockStyle}" TargetType="TextBlock"> <!--Inheriting a style-->
+            <Setter Property="FontFamily" Value="Elephant"/>
+            <Setter Property="FontSize" Value="24"/>
+        </Style>
+    </Window.Resources>
+    <DockPanel>
+        <TextBlock Text="Hey whats up Dude?" TextWrapping="WrapWithOverflow" DockPanel.Dock="Left"/>
+        <StackPanel>
+            <StackPanel.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Background" Value="HotPink"/>
+                </Style>
+            </StackPanel.Resources>
+            <TextBlock Text="Hello" Style="{StaticResource TextBlockStyle}"/>
+            <TextBlock Text="World" Style="{StaticResource TextBlockStyle}"/>
+            <TextBlock Text="Implicit"/>
+            <!--takes the default style.  Take one from this Window.Resources, but if not it looks to Application.Resources-->
+            <TextBlock Text="Inherited Style" Style="{StaticResource ChildStyle}"/>
+        </StackPanel>
+    </DockPanel>
+</Window>
