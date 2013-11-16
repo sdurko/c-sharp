@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StupidShit", "StupidShit\StupidShit.csproj", "{6B834FAA-A506-4E02-AE00-FDAFCA21900F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{8D41D97A-26F6-42D6-8B15-FCE767EA8F63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B834FAA-A506-4E02-AE00-FDAFCA21900F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B834FAA-A506-4E02-AE00-FDAFCA21900F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B834FAA-A506-4E02-AE00-FDAFCA21900F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B834FAA-A506-4E02-AE00-FDAFCA21900F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D41D97A-26F6-42D6-8B15-FCE767EA8F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D41D97A-26F6-42D6-8B15-FCE767EA8F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D41D97A-26F6-42D6-8B15-FCE767EA8F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D41D97A-26F6-42D6-8B15-FCE767EA8F63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

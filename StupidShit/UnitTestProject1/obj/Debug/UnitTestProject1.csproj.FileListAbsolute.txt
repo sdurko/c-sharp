@@ -1,0 +1,7 @@
+c:\users\steven\documents\visual studio 2012\Projects\StupidShit\UnitTestProject1\obj\Debug\UnitTestProject1.csprojResolveAssemblyReference.cache
+c:\users\steven\documents\visual studio 2012\Projects\StupidShit\UnitTestProject1\bin\Debug\UnitTestProject1.dll
+c:\users\steven\documents\visual studio 2012\Projects\StupidShit\UnitTestProject1\bin\Debug\UnitTestProject1.pdb
+c:\users\steven\documents\visual studio 2012\Projects\StupidShit\UnitTestProject1\bin\Debug\StupidShit.exe
+c:\users\steven\documents\visual studio 2012\Projects\StupidShit\UnitTestProject1\bin\Debug\StupidShit.pdb
+c:\users\steven\documents\visual studio 2012\Projects\StupidShit\UnitTestProject1\obj\Debug\UnitTestProject1.dll
+c:\users\steven\documents\visual studio 2012\Projects\StupidShit\UnitTestProject1\obj\Debug\UnitTestProject1.pdb
